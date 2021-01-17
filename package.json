@@ -1,0 +1,33 @@
+{
+    "name": "dev-material-theme",
+    "displayName": "Dev Material Theme",
+    "description": "Minimalistic VS Code Theme",
+    "version": "1.1.2",
+    "publisher": "NazmulHossain",
+    "icon": "seagreen-icon.png",
+    "engines": {
+        "vscode": "^1.13.1"
+    },
+    "author": {
+        "name": "Hossain"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "Dark theme", "Sea Green Theme", "Theme", "Minimalistic", "Green", "Material Theme", "Dev"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Nazmulho71/dev-material-theme.git"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dev Material Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Nazmul-color-theme.json" 
+            }
+        ]
+    }
+}
